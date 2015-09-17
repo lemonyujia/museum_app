@@ -6,7 +6,7 @@ class CreatePaintings < ActiveRecord::Migration
       t.string :style
       t.string :image
 
-      t.integer :museum_id  # t.reference :museum
+      t.integer :museum_id  # t.references :museum
       t.integer :artist_id
 
       t.timestamps null: false
