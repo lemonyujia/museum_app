@@ -1,5 +1,5 @@
 class MuseumsController < ApplicationController
   def show
-    @museum = Musuem.find(params[:id])
+    @museum = Museum.find(params[:id])
   end
 end
