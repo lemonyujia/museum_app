@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  root 'paitings#index'
-  resources :paitings
+  root 'paintings#index'
+  resources :paintings
 
 
   # The priority is based upon order of creation: first created -> highest priority.
